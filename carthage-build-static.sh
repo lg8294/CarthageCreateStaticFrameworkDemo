@@ -14,5 +14,8 @@ export XCODE_XCCONFIG_FILE="$xcconfig"
 
 # carthage bootstrap "$@" --platform ios
 # carthage build "$@" --platform ios
-rm -R Carthage
+if [[ -e "Carthage" ]]; then
+	#移除 Carthage 文件夹
+	rm -R Carthage
+fi
 carthage update "$@" --platform ios
