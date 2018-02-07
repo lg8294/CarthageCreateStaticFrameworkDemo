@@ -1,0 +1,4 @@
+# git "https://github.com/socketio/socket.io-client-swift.git"
+# github "AFNetworking/AFNetworking" ~> 3.0
+# github "hackiftekhar/IQKeyboardManager"
+github "lg8294/FrameworkDemo"
